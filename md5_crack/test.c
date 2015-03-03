@@ -120,7 +120,7 @@ inline void test_password() {
 	md5(passwd, out);
 	if(!memcmp(out, sum, 16)) {
 		printf("Correct password: %s\n", passwd);
-		exit(1);
+		exit(0);
 	}
 }
 

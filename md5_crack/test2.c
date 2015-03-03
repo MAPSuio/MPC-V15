@@ -20,7 +20,7 @@ void test_password() {
 	MD5((unsigned char *)passwd, strlen(passwd), out);
 	if(!memcmp(out, sum, 16)) {
 		printf("Correct password: %s\n", passwd);
-		exit(1);
+		exit(0);
 	}
 }
 

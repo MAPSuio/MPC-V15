@@ -1,7 +1,7 @@
 MD5 cracking:
 
-You have cracked your way Sony (Again!) and you found your friends account. You would like to know his password, but currently you only have the MD5 salt.
-3a8703f560b3768e0277094c58c686e1
+You have cracked your way into Sony (Again!) and you have found your friends account information. You would like to know his password, but currently you only have the MD5 hash. You also know that Sony has not discovered the significance of using proper crypto algorithms or salts.
+* The hash is 3a8703f560b3768e0277094c58c686e1
 He has hinted that the password contains only letters in lower case.
 
 Correct solution: ghjkl
