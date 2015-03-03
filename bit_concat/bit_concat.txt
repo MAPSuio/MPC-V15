@@ -1,0 +1,30 @@
+Variation #1:
+Given two integers n and m, return the integer that results from appending the bit-representation of n to
+the bit-representation of m. E.g. if n=3 (which is '11' in base 2) and m=5 (which is '101' in base 2), then
+the result is 29 (which is '11101' in base 2.) 
+
+Solution: Note that the length of the bit-representation is bl(x) = 1+floor(log2(x)). The solution can
+then be found by sol(n,m) = bitwise-or(bit-shift-left(n,bl(m)),m).
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Variation #2:
+Given two integers n and m, return the integer which bit-representation appended to the bit-representation
+of n gives the bit-representation of the number m. E.g. if n=3 (which is '11' in base 2) and m=29
+(which is '11101' in base 2), then the result is 5 (which is '101' in base 2.) 
+
+Solution: Let bl(x) be defined as above. Then sol(n,m) = bitwise-xor(bit-shift-left(n,bl(m)-bl(n)),m).
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Variation #3:
+Same as variation #2, but reversed. E.g. if n=5 and m=29, the solution is 3.
+
+Solution: Let bl(x) be defined as above. Then sol(n,m) = bit-shift-left(m,bl(n)).
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Variation #4:
+Determine whether the the bit-representation of n is a prefix of the bit-representation of m.
+
+Solution: Let bl(x) be defined as above. Then sol(n,m) = (bit-shift-right(m,bl(m)-bl(n)) == n). 
