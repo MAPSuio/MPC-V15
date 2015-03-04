@@ -7,7 +7,7 @@ Julia Linear Algebra
 Connor Quantum Mechanics
 Archie Quantum Mechanics
 Ronnie Linear Algebra
-Charlie Magic The Gathering
+Charlie Magic: The Gathering
 Imogen DTrace
 Isabella Pokémon
 Imogen Chess
@@ -37,7 +37,7 @@ Isla Star Wars
 Ava Star Wars
 Henry Neuroscience
 Mia Pokémon
-Emma Magic The Gathering
+Emma Magic: The Gathering
 Archie Linear Algebra
 Zoe Star Wars
 Maryam Neuroscience
@@ -55,12 +55,12 @@ Maryam Chess
 Nathan Dungeons & Dragons
 Eva Star Wars
 Tilly Category Theory
-Mason Magic The Gathering
+Mason Magic: The Gathering
 Lola Chess
 Harrison Linear Algebra
 Michael Quantum Mechanics
 Evie Chess
-Isobel Magic The Gathering
+Isobel Magic: The Gathering
 Jack Comics
 Ivy Quantum Mechanics
 Brooke Comics
@@ -73,10 +73,10 @@ Mason Star Wars
 Blake Linear Algebra
 Isobel Star Wars
 Tilly Star Wars
-Isobel Magic The Gathering
+Isobel Magic: The Gathering
 Freya Quantum Mechanics
 Aisha Dungeons & Dragons
-Maddison Magic The Gathering
+Maddison Magic: The Gathering
 Nathan Comics
 Daisy DTrace
 Jessica Linear Algebra
@@ -86,7 +86,7 @@ Eliza Dungeons & Dragons
 Alfie Star Wars
 Emilia Chess
 Lola Neuroscience
-Megan Magic The Gathering
+Megan Magic: The Gathering
 Isabelle Neuroscience
 Henry Comics
 Henry Quantum Mechanics
@@ -98,12 +98,12 @@ Emma Pokémon
 Samuel Star Wars
 Lexi Category Theory
 Annabelle Star Wars
-Zachary Magic The Gathering
+Zachary Magic: The Gathering
 Isabel Comics
 Isaac Star Wars
 Nathan Quantum Mechanics
 Zoe Comics
-Jack Magic The Gathering
+Jack Magic: The Gathering
 Hannah Linear Algebra
 Ryan Dungeons & Dragons
 Felix Quantum Mechanics
@@ -111,7 +111,7 @@ Zoe Quantum Mechanics
 Charlie Pokémon
 Elliot DTrace
 Skye DTrace
-Ronnie Magic The Gathering
+Ronnie Magic: The Gathering
 Annabelle Category Theory
 Callum Comics
 Oscar Star Wars
@@ -132,11 +132,11 @@ Ellie Linear Algebra
 Leo DTrace
 Elliot Chess
 Nathan Dungeons & Dragons
-Ronnie Magic The Gathering
+Ronnie Magic: The Gathering
 Emma Comics
 Lexi Linear Algebra
 Maddison DTrace
-Mohammad Magic The Gathering
+Mohammad Magic: The Gathering
 Georgia Category Theory
 James Quantum Mechanics
 Henry Category Theory
@@ -148,7 +148,7 @@ Megan Chess
 Harry Linear Algebra
 Amelia Chess
 Maryam Pokémon
-Leo Magic The Gathering
+Leo Magic: The Gathering
 Callum Pokémon
 Max Chess
 Zachary Quantum Mechanics
@@ -156,7 +156,7 @@ Connor Neuroscience
 Isabelle Pokémon
 Albert Neuroscience
 Brooke Quantum Mechanics
-Eliza Magic The Gathering
+Eliza Magic: The Gathering
 Theodore Comics
 Julia Category Theory
 Poppy Comics
@@ -188,10 +188,10 @@ Riley Chess
 Kian Neuroscience
 Ellie Quantum Mechanics
 Maddison DTrace
-Sebastian Magic The Gathering
+Sebastian Magic: The Gathering
 Alice Pokémon
 Evie DTrace
-Lola Magic The Gathering
+Lola Magic: The Gathering
 Annabelle Pokémon
 Mohammad Star Wars
 Emilia Comics
@@ -219,8 +219,8 @@ Julia Dungeons & Dragons
 Eliza Chess
 Victoria Star Wars
 Kian Category Theory
-Tilly Magic The Gathering
-Michael Magic The Gathering
+Tilly Magic: The Gathering
+Michael Magic: The Gathering
 Jake Neuroscience
 Julia Star Wars
 Riley Comics
@@ -228,11 +228,11 @@ Maddison DTrace
 Lewis Linear Algebra
 Zachary Category Theory
 Michael Comics
-Ryan Magic The Gathering
+Ryan Magic: The Gathering
 Sofia DTrace
 Lola Comics
 Daniel Chess
-Ella Magic The Gathering
+Ella Magic: The Gathering
 Alexander Quantum Mechanics
 Georgia Star Wars
 Rory Category Theory
@@ -240,9 +240,9 @@ Maddison Category Theory
 Daisy Dungeons & Dragons
 Annabelle Neuroscience
 Connor Linear Algebra
-Harley Magic The Gathering
+Harley Magic: The Gathering
 Lewis DTrace
-Archie Magic The Gathering
+Archie Magic: The Gathering
 Tilly Neuroscience
 Evie DTrace
 Ava Chess
@@ -261,7 +261,7 @@ Edward Comics
 Sophia DTrace
 Mia Comics
 Ethan Pokémon
-Callum Magic The Gathering
+Callum Magic: The Gathering
 Lexi Neuroscience
 Blake Chess
 Alice Star Wars
@@ -274,7 +274,7 @@ Maisie Linear Algebra
 Isabelle Neuroscience
 Daisy Comics
 Ava Pokémon
-Alfie Magic The Gathering
+Alfie Magic: The Gathering
 Liam Category Theory
 Amelia Quantum Mechanics
 Emilia Pokémon
@@ -317,7 +317,7 @@ Isabelle DTrace
 Jack DTrace
 Elliot Star Wars
 Michael Category Theory
-Muhammad Magic The Gathering
+Muhammad Magic: The Gathering
 Eva Quantum Mechanics
 Harry DTrace
 Isabelle Quantum Mechanics
@@ -325,10 +325,10 @@ Harley Neuroscience
 Isla Quantum Mechanics
 Isla Linear Algebra
 Muhammad Linear Algebra
-Elizabeth Magic The Gathering
+Elizabeth Magic: The Gathering
 Poppy Chess
 Alice Quantum Mechanics
-Georgia Magic The Gathering
+Georgia Magic: The Gathering
 Brooke Star Wars
 Dylan DTrace
 Harry Category Theory
@@ -336,7 +336,7 @@ Archie DTrace
 Leo Neuroscience
 Megan Pokémon
 Toby Dungeons & Dragons
-Isla Magic The Gathering
+Isla Magic: The Gathering
 Albert Linear Algebra
 Blake DTrace
 Jenson Neuroscience
@@ -356,7 +356,7 @@ Lola Neuroscience
 Isabel DTrace
 Luke Dungeons & Dragons
 Elliot Linear Algebra
-Dylan Magic The Gathering
+Dylan Magic: The Gathering
 Dexter Comics
 Imogen Dungeons & Dragons
 Brooke Neuroscience
@@ -368,7 +368,7 @@ Felix Category Theory
 Eva Quantum Mechanics
 Henry Chess
 Isaac Pokémon
-Eliza Magic The Gathering
+Eliza Magic: The Gathering
 Theodore Neuroscience
 Eliza Chess
 Jessica Category Theory
@@ -382,12 +382,12 @@ Scarlett Category Theory
 Jenson Category Theory
 Phoebe Category Theory
 Lewis Comics
-James Magic The Gathering
+James Magic: The Gathering
 Dexter Linear Algebra
-Hannah Magic The Gathering
+Hannah Magic: The Gathering
 Georgia Linear Algebra
 Evie Star Wars
 Poppy Pokémon
 Muhammad Neuroscience
-Freya Magic The Gathering
+Freya Magic: The Gathering
 Ella Comics

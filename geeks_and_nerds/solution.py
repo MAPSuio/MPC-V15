@@ -5,7 +5,7 @@ geeks = set([]);
 nerds = set([]);
 
 nerdy_interests = ["Category Theory", "DTrace", "Chess", "Linear Algebra", "Quantum Mechanics", "Neuroscience"]
-geeky_interests = [ "Dungeons & Dragons", "Magic The Gathering", "Star Wars", "Pokémon", "Comics"]
+geeky_interests = [ "Dungeons & Dragons", "Magic: The Gathering", "Star Wars", "Pokémon", "Comics"]
 
 name = ""
 interest = ""
