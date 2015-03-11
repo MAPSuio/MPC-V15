@@ -12,6 +12,6 @@ coconut left, which was given to the monkey.
 
 This (easy) version of the coconut problem is from
 Martin Gardner, <em>The Colossal Book of Mathematics</em>,
-W. W. Norton & Company 2001.
+W. W. Norton & Company 2001, pages 3-9.
 
 Answer: 15
