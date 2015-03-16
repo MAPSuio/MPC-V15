@@ -9,3 +9,4 @@ Assume that:
 
 <em>How many students must be in the classroom for there to be at least a 50% probability that two of the students are born within the same minute?</em> By within the same minute, we mean the same clock-minute, ie. a minute starting at YYYY.MM.DD hh:mm:00.
 
+Answer: 854
