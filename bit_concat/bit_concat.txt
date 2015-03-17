@@ -1,9 +1,14 @@
-Given the two integers n = 43046721 and m = 2888816585588551, return the integer x which bit-representation appended to the bit-representation
-of n gives the bit-representation of the number m.
 
-Example: If n=3 (which is '11' in base 2) and m=29
-	 (which is '11101' in base 2), then the result is 5 (which is '101' in base 2.) 
+We are looking for an integer whose bit-representation appended to the bit
+representation of 43046721 is the bit representation of 2888816585588551.
 
+Can you help us out here?
+
+Example: 5 which is '101' in base 2) appended to 3 (which is '11' in base 2) is 29,
+	 so the number we need to append to the bit representation of 3 to get 29 is 5.
+	 
 Solution: Note that the length of the bit-representation is bl(x) = 1+floor(log2(x)).
 	  Then sol(m,n) = bitwise-xor(bit-shift-left(n,bl(m)-bl(n)),m).
 	  So the solution is x=40353607.
+
+Answer: 40353607
