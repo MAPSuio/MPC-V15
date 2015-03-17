@@ -1,31 +1,14 @@
-from random import randint
-
-def sim_lo(n):
-    score = 0
-
-    for i in xrange(n):
-        if min(randint(1, 6), randint(1, 6)) >= max(randint(1, 6), randint(1, 6)):
-            score = 2*score + 1
-
-    return score
-
-def sim_hi(n):
-    score = 0
-
-    for i in xrange(n):
-        d1, d2 = max(randint(1, 6), randint(1, 6)), max(randint(1, 6), randint(1, 6))
-        score += (d1 > d2) + .5*(d1 == d2)
-
-    return score
+from numpy.random import randint
+from numpy import min, max, sum
 
 def lo_better(n):
-    lo_score = 0
-    hi_score = 0
+    k = 10000
+    lo = min(randint(1, 7, (k, n, 2)), 2)
+    hi = max(randint(1, 7, (k, n, 2)), 2)
 
-    for i in xrange(10000):
-        lo_score += sim_lo(n)
-        hi_score += sim_hi(n)
+    lo_score = 2**sum(lo >= hi, 1) - 1
+    hi_score = sum(hi > lo, 1)
 
-    return lo_score > hi_score
+    return sum(lo_score > hi_score) / float(k) > .5
 
 print (n for n in xrange(100) if lo_better(n)).next()
