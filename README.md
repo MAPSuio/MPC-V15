@@ -3,6 +3,10 @@ Here be the problems and solutions used in MAPS Spring Challenge V15.
 
 ![](screen.png)
 
+The scoring system used during the contest is a fork of [Programming
+Ladder](https://github.com/alexanbj/programming-ladder) created by people at
+Knowit. This contest (probably) wouldn't have happened without it.
+
 People who have contributed are listed below each problem in no particular
 order.
 
