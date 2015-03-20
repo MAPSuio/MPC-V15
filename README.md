@@ -1,6 +1,8 @@
 # MAPS Spring Challenge V15
 Here be the problems and solutions used in MAPS Spring Challenge V15.
 
+![](screen.png)
+
 People who have contributed are listed below each problem in no particular
 order.
 
