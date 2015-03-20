@@ -11,3 +11,13 @@ number. For instance, for Feb and March 2015; `2015-02 2015-03`
 ----
 Answer:
 `2026-02 2026-03`
+
+----
+__Solution__
+This can simply be brute-forced, preferably using some date-library.
+
+Some observations:
+The only way for two consecutive months to have friday the 13th is if the first
+month has the same number of days as a whole number of weeks. The only month
+that has this property is Febuary in a non-leap year. Thus we only need to find
+the next year where the 13th of Febuary is a friday.
