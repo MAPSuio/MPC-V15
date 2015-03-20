@@ -8,7 +8,7 @@ the sum of three *unique* three-digit palindromes.
 Answer: 333
 
 ---
-__Solution__
+### Solution
 The only sensible way to solve this is to brute force. Since there are only
 three digits there are very few numbers to try.
 

@@ -21,15 +21,17 @@ First observe that if we fill out for instance the 10 marked cells in the
 "illustration" below, then the remaining six cells are uniquely determined by
 the three properties in the problem statement.
 
-+-+-+-+-+  
-|#|#|#|#|  
-+-+-+-+-+  
-|#|#|#| |  
-+-+-+-+-+  
-|#|#|#| |  
-+-+-+-+-+  
-| | | | |  
-+-+-+-+-+  
+```
++-+-+-+-+
+|#|#|#|#|
++-+-+-+-+
+|#|#|#| |
++-+-+-+-+
+|#|#|#| |
++-+-+-+-+
+| | | | |
++-+-+-+-+
+```
 
 This means that if we brute force the value of these 10 cells, we can quickly
 determine the value of the remaining six, and then all that remains is to
@@ -43,30 +45,35 @@ linear equations.
 
 First label the cells in the matrix like this:
 
-+-+-+-+-+  
-|a|b|c|d|  
-+-+-+-+-+  
-|e|f|g|h|  
-+-+-+-+-+  
-|i|j|k|l|  
-+-+-+-+-+  
-|m|n|o|p|  
-+-+-+-+-+  
+```
++-+-+-+-+
+|a|b|c|d|
++-+-+-+-+
+|e|f|g|h|
++-+-+-+-+
+|i|j|k|l|
++-+-+-+-+
+|m|n|o|p|
++-+-+-+-+
+```
 
 The second property can setup through the following seven equations.
 
 First ensure that the rows have the same sum:
+
 a + b + c + d = e + f + g + h  
 a + b + c + d = i + j + k + l  
 a + b + c + d = m + n + o + p  
 
 Next make sure that the colums have the same sum as the rows:
+
 a + b + c + d = a + e + i + m  
 a + b + c + d = b + f + j + n  
 a + b + c + d = c + g + k + o  
 a + b + c + d = d + h + l + p  
 
 For the third property we need one more equation:
+
 a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p = 2*(a + f + k +
 p + c + g + j + m)  
 
@@ -76,6 +83,7 @@ out this system has rank 7, which means that seven of the cells are uniquely
 determined once the remaining 9 have a value.
 
 The seven resulting equations are:
+
 a = h + l - m  
 b = g + k - n  
 c = -g - k + m + n + p  
@@ -88,15 +96,17 @@ So it turns out that once we've filled out the marked cells in the illustration
 below, the remaining seven are uniquely determined. This saves the work of
 brute-forcing one more cell!
 
-+-+-+-+-+  
-| | | | |  
-+-+-+-+-+  
-| | |#|#|  
-+-+-+-+-+  
-| |#|#|#|  
-+-+-+-+-+  
-|#|#|#|#|  
-+-+-+-+-+  
+```
++-+-+-+-+
+| | | | |
++-+-+-+-+
+| | |#|#|
++-+-+-+-+
+| |#|#|#|
++-+-+-+-+
+|#|#|#|#|
++-+-+-+-+
+```
 
 Observe from the equations above that all of the calculated values are integers
 as long as all the generated values are integer. So once again we have to check

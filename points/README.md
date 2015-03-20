@@ -14,7 +14,7 @@ the furthest away from each other, the answer would be `124 533 925 436`, since
 Answer: 997 19 14 994
 
 ---
-__Solution__
+### Solution
 In this contest: Brute force. Run through all pairs of points (there are 10<sup>6</sup> such
 pairs), pick the pair with the largest distance.
 

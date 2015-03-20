@@ -43,7 +43,7 @@ in order for you to have at least 50% chance of winning?
 Answer: 16
 
 ---
-__Solution__
+### Solution
 The best way to figure this out is simply to simulate a lot of games. Test for
 several values of _n_ (from 1 ... 100 for instance); simulate ~10000 games with
 _n_ rounds and see who wins.
@@ -58,10 +58,10 @@ Next observe that if you win _k_ rounds, you get 2<sup>_k_</sup> - 1 points.
 Eric gets _k_ points if he wins _k_ rounds.
 
 This means that in a game of _n_ rounds Eric has an expected score of _n_(1 -
-_p_). You on the other hand have an expected score of 2<sup>_n__p_</sup> - 1.
+_p_). You on the other hand have an expected score of 2<sup>_n_ _p_</sup> - 1.
 
 Solve the following inequality:
-_n_(1 - _p_) < 2<sup>_n__p_</sup> - 1
+_n_(1 - _p_) < 2<sup>_n_ _p_</sup> - 1
 
 This can easily be solved using Wolfram Alpha. We get _n_ > 16.1044, thus
 indicating that the answer is 17. It turns out, however, that for _n_ = 16, the

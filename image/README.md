@@ -10,7 +10,7 @@ in lower case, of this celebrity.
 Answer: rick
 
 ----
-__Solution__
+### Solution
 This can be solved in several ways. The easiest is to use Matlab (which has a
 nice image library) or Python and find the pixels that have the color \#5A9836.
 For instance set these pixels to black and all other pixels to white and

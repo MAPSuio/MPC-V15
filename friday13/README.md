@@ -13,7 +13,7 @@ Answer:
 `2026-02 2026-03`
 
 ----
-__Solution__
+### Solution
 This can simply be brute-forced, preferably using some date-library.
 
 Some observations:
