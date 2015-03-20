@@ -12,4 +12,4 @@ of three edges with costs 59, 833 and 1595, the answer is <code>YAY</code>.
 The edges must be printed in the order they are visited when starting in node 0
 and ending in node 24.
 
-Answer: A*
+Answer: *A

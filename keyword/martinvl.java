@@ -24,13 +24,19 @@ public class martinvl {
         Stack<Integer> pathCosts = new Stack<Integer>();
 
         for (int node = 24; node != 0; node = prev[node]) {
+            System.out.println(node + " " + costs[prev[node]][node]);
             pathCosts.push(costs[prev[node]][node]);
         }
 
-        for (int c : pathCosts) {
+        int sum = 0;
+
+        while (!pathCosts.isEmpty()) {
+            int c = pathCosts.pop();
+            sum += c;
             System.out.print((char)(c % 128));
         }
         System.out.println();
+        System.out.println(sum);
     }
 
     // Dense graph in-place path version O(|V|^2)
